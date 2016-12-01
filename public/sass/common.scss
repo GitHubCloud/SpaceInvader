@@ -1,0 +1,66 @@
+@import "compass/reset";
+
+*{
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+	color: #fff;
+}
+
+body{
+	max-width: 900px;
+	width: 10rem;
+	overflow: hidden;
+	background: #000;
+}
+
+@font-face{
+	font-family: '8 bit';
+	src: url('../fonts/04B_03__.TTF');
+}
+.score{
+	position:absolute;
+	display: inline-block;
+	font-family: '8 bit', monospace;
+	font-size: .5rem;
+}
+
+.object{
+	display: inline-block;
+	position: absolute;
+	width: 0.8rem;
+	height: 0.64rem;
+}
+
+.ship, .invader, .boss, .bullet{
+	@extend .object;
+}
+
+/* ship */
+.ship{
+	background-repeat: no-repeat;
+	background-size: 0.8rem;
+	background-image: url("../images/ship.png");
+}
+
+/* invader */
+.invader{
+	background-repeat: no-repeat;
+	background-size: 0.8rem;
+	background-image: url("../images/invader.gif");
+}
+
+/* boss */
+.boss{
+	background-repeat: no-repeat;
+	background-size: 3.5rem;
+	background-position: center;
+	background-image: url("../images/boss.png");
+	/*background-image: url("http://placehold.it/300x300");*/
+	width: 3.5rem;
+	height: 3.5rem;
+	max-height: 50%;
+}
+.boss.attack{
+	background-image: url("../images/boss-attack.png");
+	/*background-image: url("http://placehold.it/300x300/f00");*/
+}

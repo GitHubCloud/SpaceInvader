@@ -1,0 +1,136 @@
+/* line 5, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, F:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/common.scss */
+* {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  color: #fff;
+}
+
+/* line 9, ../sass/common.scss */
+body {
+  max-width: 900px;
+  width: 10rem;
+  overflow: hidden;
+  background: #000;
+}
+
+@font-face {
+  font-family: '8 bit';
+  src: url("../fonts/04B_03__.TTF");
+}
+/* line 20, ../sass/common.scss */
+.score {
+  position: absolute;
+  display: inline-block;
+  font-family: '8 bit', monospace;
+  font-size: .5rem;
+}
+
+/* line 27, ../sass/common.scss */
+.object, .ship, .invader, .boss, .bullet {
+  display: inline-block;
+  position: absolute;
+  width: 0.8rem;
+  height: 0.64rem;
+}
+
+/* ship */
+/* line 39, ../sass/common.scss */
+.ship {
+  background-repeat: no-repeat;
+  background-size: 0.8rem;
+  background-image: url("../images/ship.png");
+}
+
+/* invader */
+/* line 46, ../sass/common.scss */
+.invader {
+  background-repeat: no-repeat;
+  background-size: 0.8rem;
+  background-image: url("../images/invader.gif");
+}
+
+/* boss */
+/* line 53, ../sass/common.scss */
+.boss {
+  background-repeat: no-repeat;
+  background-size: 3.5rem;
+  background-position: center;
+  background-image: url("../images/boss.png");
+  /*background-image: url("http://placehold.it/300x300");*/
+  width: 3.5rem;
+  height: 3.5rem;
+  max-height: 50%;
+}
+
+/* line 63, ../sass/common.scss */
+.boss.attack {
+  background-image: url("../images/boss-attack.png");
+  /*background-image: url("http://placehold.it/300x300/f00");*/
+}
+
+/*# sourceMappingURL=common.css.map */

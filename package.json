@@ -1,0 +1,11 @@
+{
+  "name": "spaceinvader",
+  "version": "1.0.0",
+  "description": "copy of space invader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cloud",
+  "license": "MIT"
+}
