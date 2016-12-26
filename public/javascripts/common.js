@@ -201,7 +201,7 @@ $(function () {
 				let h2 = o.height();
 
 				let l1 = (x1 >= x2 && x1 >= x2 + w2);
-				let l2 = (x2 <= x2 && x1 + w1 <= x2);
+				let l2 = (x1 <= x2 && x1 + w1 <= x2);
 				let l3 = (y1 >= y2 && y1 >= y2 + h2);
 				let l4 = (y1 <= y2 && y1 + h1 <= y2);
 				if(l1 || l2 || l3 || l4){ continue; }
